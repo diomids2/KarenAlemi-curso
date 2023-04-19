@@ -504,7 +504,7 @@ section.features .col-4 {
 /* Why Choosing Us */
 
 section.why-us {
-    background-image: url(../images/choosing-bg.jpg);
+
     background-color: #313131;
     background-repeat: no-repeat;
     background-size: cover;
@@ -635,10 +635,10 @@ section.why-us {
 /* Coming Soon */
 
 section.coming-soon {
-    background-image: url(../images/coming-soon-bg.jpg);
+    background-image: url(../images);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #172238;
+    background: #A7A8AA;
     padding: 120px 0px;
 }
 
@@ -648,7 +648,7 @@ section.coming-soon .continer .counter div {
 section.coming-soon .continer h4 {
     margin-top: 100px;
     font-size: 30px;
-    color: #fff;
+    color: #313131;
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 40px;
@@ -678,7 +678,7 @@ section.coming-soon .continer .counter .seconds {
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 1px;
-  color: #fff;
+  color: #313131;
   background-color: rgba(250,250,250,0.1);
 }
 @media screen and (max-width: 992px) {
@@ -745,7 +745,7 @@ section.coming-soon .top-content {
 
 section.coming-soon .top-content h6 {
     font-size: 14px;
-    color: #fff;
+    color: #313131;
     background-color: rgba(250,250,250,0.2);
     padding: 40px;
     text-align: center;
@@ -771,7 +771,7 @@ section.coming-soon form input {
     border-radius: 0px;
     border: none;
     outline: none;
-    color: #fff;
+    color: #313131;
     font-size: 13px;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
@@ -781,18 +781,18 @@ section.coming-soon form input:focus {
     outline: none;
     border: none;
     box-shadow: none;
-    color: #fff;
+    color: #313131;
     background-color: rgba(250,250,250,0.1);
 }
 
-section.coming-soon form::placeholder { color: #fff }
-section.coming-soon form input::placeholder { color: #fff; }
-section.coming-soon form input::placeholder { color: #fff; }
+section.coming-soon form::placeholder { color: #313131; }
+section.coming-soon form input::placeholder { color: #313131; }
+section.coming-soon form input::placeholder { color: #313131; }
 
 section.coming-soon form button {
     margin-top: 10px;
     background-color: #E8ACB6;
-    color: #fff;
+    color: #313131;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -801,7 +801,7 @@ section.coming-soon form button {
     display: inline-block;
     outline: none;
     box-shadow: none;
-    border: none;
+    border:   1px  color #313131;
 }
 
 
@@ -809,10 +809,10 @@ section.coming-soon form button {
 /* Courses */
 
 section.courses {
-    background-image: url(../images/choosing-bg.jpg);
+    background-image: url(../images/);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #172238;
+    background-color: #313131;
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
@@ -898,16 +898,16 @@ section.courses .owl-carousel button.active {
 
 /* Video */
 
-section.video {
-    background-image: url(../images/video-bg.jpg);
+ section.video { 
+ /*   background-image: url(../images/video-bg.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #172238;
+    background: #A7A8AA;
     padding: 120px 0px;
 }
 
 section.video .left-content {
-  color: #fff;
+  color: #313131;
 }
 
 section.video .left-content span {
@@ -919,7 +919,7 @@ section.video .left-content span {
 section.video .left-content h4 {
     margin-top: 20px;
     font-size: 30px;
-    color: #fff;
+    color: #313131;
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 40px;
@@ -984,7 +984,7 @@ section.video .left-content .main-button {
   margin-left: -7px;
   border: solid 13px transparent;
   border-left: solid 20px;
-  border-left-color: #fff;
+  border-left-color: #313131;
   z-index: 10;
 }
 .video-item figure a:hover:before {
@@ -994,7 +994,7 @@ section.video .left-content .main-button {
 .video-item .video-caption {
     position: absolute;
     z-index: 10;
-    background-color: rgba(250,250,250,0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     height: 80px;
     width: 100%;
     padding: 27px 30px;
@@ -1460,10 +1460,10 @@ img.mfp-img {
 /* Contact */
 
 section.contact {
-    background-image: url(../images/contact-bg.jpg);
+/*    background-image: url(../images/contact-bg.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #172238;
+    background-color: #313131;
     padding-bottom: 120px;
 }
 
@@ -1543,7 +1543,7 @@ section.contact form button {
 /* Footer */
 
 footer {
-    background-color: #152036;
+    background-color: #161515;
     text-align: center;
 }
 
